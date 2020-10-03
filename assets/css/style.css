@@ -3,90 +3,108 @@
 
 /* -------------------- Colors */
 
+.navbar-collapse ul li a {
+    color: #6B6B6B;
+}
 
+.hero-container p {
+    color: #343a40;
+}
+.quote-btn a {
+    color: #f8f9fa;
+    background-color: #A86067;
+}
+
+.section-heading h1{
+    color: #6B6B6B;
+}
+
+/* -------------------- Hover and Active */
+
+.navbar-collapse ul li a:hover {
+    color: #A86067;
+}
+
+#active a{
+    color: #A86067;
+}
+
+.quote-btn a:hover{
+    text-decoration: none;
+    color: #A86067;
+    background-color:#f8f9fa;
+}
 
 
 /* -------------------- Logo and Navbar */
 
-.header {
-    height: 140px;
+.navbar {
+    height: 125px;
+    width: 100%;
 }
 
-.logo {
+#logo {
     background-image: url("../images/TEM_logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 10px 20px 10px 20px;
+    margin: 10px;
     height: 120px;
     width: 120px;
-    position: absolute;
+    position: static;
 }
 
-.menu-container {
+.navbar-collapse {
+    margin-left: 80px;
+}
+
+.nav-item {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
-    margin-bottom: 10px;
-    position: absolute;
-}
-
-.menu-item {
-    display: inline;
-    position: center;
-    height: 40px;
-    width: 100%;
-    padding: 0;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.list-inline li a{
-    margin-top: 95px;
-    text-align: center;
-    color: #737373;
-}
-
-/* -------------------- Hover */
-
-.hvr-grow:hover{
-    color: black;
-    text-decoration: none;
 }
 
 /* -------------------- Index Hero Container */
 
 .hero-container{
     background-image: url("../images/TEM_hero_image.png");
+    margin-top: 120px;
     width: 100%;
-    height: 350px;
-    background-position: center;
+    height: 325px;
+    background-position: center 10%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10px;
-}
-
-.hero-container{
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
     display: block;
 }
 
-h4 {
+.shout-out {
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
+    margin: 20px;
 }
 
-h5 {
+.hero-container a {
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.quote-btn {
     text-align: center;
 }
 
 /* -------------------- Section Titles */
 
+/* -------------------- Section */
 
+.reason {
+    display: inline;
 
-
+}
 
 /* -------------------- Footer */
 
