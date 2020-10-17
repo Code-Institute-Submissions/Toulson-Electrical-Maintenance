@@ -14,7 +14,12 @@
     <nav class="navbar navbar-custom fixed-top navbar-expand-sm bg-light">
         <a href="index.html" id="logo" class="navbar-brand hvr-grow"></a>
 
-        <div class="collapse navbar-collapse" id="nav-menus">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2" id="active">
                     <a class="nav-link" href="index.html">Home</a>
@@ -33,39 +38,38 @@
                 </li>
             </ul>
         </div>
+        
     </nav>
        
     <div class="container-fluid d-md-block">
-        <section class="hero-container">
-            <div class="shout-out">
-                <p class="hero-text my-auto mr-2">Quality service every time!</p>
+        <div class="hero-container col-12">
+            <div class="container text-container">
+                <p class="hero-text my-auto mr-2" id="shout-out">Quality service every time!</p>
+                <p id="quote-btn">
+                <a class="btnghuote-btn" href="contact.html" role="button">Get a free quote</a>
+                </p>
             </div>
-            <div class="quote-btn">
-                <a id="quote-btn" href="contact.html">Get a free quote</a>
-            </div>
-        </section>
+        </div>
     </div>
     
     <div class="container-fluid">
        <section class="reasons-container">
-            <div class="section-heading">
-                <div class="row no-gutters col-12">
-                    <h1>Why choose us?</h1>
-                </div>
+            <div class="row no-gutters section-header col-12">
+                <h1>Why choose us?</h1>
             </div>
             <div class="row">
-                <div class="reason col-4 col-sm-12">
+                <div class="reason col-md-4">
                     <div class="icon">
                         <i class="three-reasons-icon fa fa-stopwatch" aria-hidden="true"></i>
                     </div>
                     <div class="reason-item">
                         <p>
-                        Our small, family-owned business puts you first. We offer quick and efficient service and one point of contact.
+                        Our small, family-owned business puts you first. We offer quick and efficient service and one point of contact throughout your experience.
                         </p>
                     </div>
                 </div>
         
-                <div class="reason col-4 col-sm-12">
+                <div class="reason col-md-4">
                     <div class="icon">
                         <i class="three-reasons-icon fa fa-award" aria-hidden="true"></i>
                     </div>
@@ -76,7 +80,7 @@
                     </div>
                 </div>
              
-                <div class="reason col-4 col-sm-12">
+                <div class="reason ccol-md-4">
                     <div class="icon">
                         <i class="three-reasons-icon fa fa-tag" aria-hidden="true"></i>
                     </div>
@@ -118,5 +122,10 @@
         </div>
 
     </footer>
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
