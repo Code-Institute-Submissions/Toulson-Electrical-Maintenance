@@ -12,11 +12,11 @@
 }
 
 .text-container {
-    background-color: rgb(248,249,250,0.5);
+    background-color: rgb(248,249,250,0.3);
 }
 
-.hero-container p {
-    color: #343a40;
+.text-container p {
+    color: #333333;
 }
 
 #quote-btn a{
@@ -24,9 +24,30 @@
     background-color: #A86067;
 }
 
-.section-heading h1{
+.section-header h1{
+    color: #333333;
+}
+
+#icon, #icon2, #icon3 {
+    color: #A86067;
+}
+
+.reason-item p {
+    color: #333333;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
+
+.brand-name {
     color: #6B6B6B;
 }
+
+.list-inline-item i{
+    color: #333333;
+}
+
 
 /* -------------------- Hover and Active */
 
@@ -42,6 +63,10 @@
     text-decoration: none;
     color: #A86067;
     background-color:#f8f9fa;
+}
+
+.list-inline-item i:hover{
+    color: #A86067;
 }
 
 
@@ -128,16 +153,50 @@
 
 /* -------------------- Section Titles */
 
-
+.section-header h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* -------------------- Section */
 
 .reason {
-    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#icon, #icon2, #icon3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.reason-item {
+    padding-top: 15px;
+    text-align: center;
 }
 
 /* -------------------- Footer */
 
+.footer {
+    margin-top: 200px;
+    height: 30px;
+}
 
+.brand-name {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+
+.social-media{
+    display: inline-block;
+    padding-right: 40px;
+    float: right;
+    font-size: 17px;
+    vertical-align: middle;
+}
 
 /* -------------------- Media */
