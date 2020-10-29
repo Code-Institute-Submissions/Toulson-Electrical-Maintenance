@@ -103,14 +103,6 @@
     margin-left: 100px;
 }
 
-.navbar-collapse .collapsing .collapse .show {
-    width: 30%;
-}
-
-#navbarNavDropdown{
-    width: 100px;
-}
-
 .nav-item {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -196,12 +188,8 @@
     text-align: center;
 }
 
-.reason-content1 {
-    padding-bottom: 30px;
-}
-
 .reason-content {
-    padding-bottom: 80px;
+    padding-bottom: 10px;
 }
 
 .button a{
@@ -247,19 +235,15 @@
     }
 
     .reason-item {
-    padding-top: 0px;
-    }
-
-    .reason-content1 {
-        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     .reason-content {
         padding-bottom: 0px;
     }
 
-@media screen and (max-width: 786px) {
-    .button a {
-        font-size: 15px;
-    }  
+@media only screen and (min-width: 768px) and (max-width: 785px) {
+    .btn a {
+        font-size: 10px;
+    }
 }
