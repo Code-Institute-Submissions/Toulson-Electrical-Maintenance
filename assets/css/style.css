@@ -19,6 +19,18 @@
     color: #333333;
 }
 
+.text-container h1 {
+    color: #333333;
+}
+
+.section-header h3 {
+    color: #6B6B6B;
+}
+
+.list-header h3 {
+    color:#A86067;
+}
+
 #quote-btn a{
     color: #f8f9fa;
     background-color: #A86067;
@@ -27,6 +39,7 @@
 .section-header h1{
     color: #333333;
 }
+
 
 #icon, #icon2, #icon3 {
     color: #A86067;
@@ -109,15 +122,32 @@
     font-size: 20px;
 }
 
-/* -------------------- Index Hero Container */
+/* -------------------- Hero Containers */
 
-.hero-container{
+.hero-container-index {
     background-image: url("../images/TEM_hero_image.png");
     margin-top: 125px;
     width: 100%;
     height: 410px;
     position: relative;
     background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hero-container-services{
+    background-image: url("../images/TEM_hero_image_services.png");
+    margin-top: 125px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-position: center 45%;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
@@ -148,7 +178,7 @@
     margin: auto;
 }
 
-.hero-container a {
+.hero-container-index a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
@@ -162,7 +192,7 @@
     margin: auto;
 }
 
-/* -------------------- Section Titles */
+/* -------------------- Page Main Content Sections */
 
 .section-header h1{
     margin: auto;
@@ -171,7 +201,20 @@
     margin-bottom: 20px;
 }
 
-/* -------------------- Section */
+.section-header h3{
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.list-header h3 {
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
 
 .reason {
     padding-left: 40px;
@@ -197,6 +240,12 @@
     text-align: center;
     margin: auto;
     border-radius: 12px;
+}
+
+.services-list {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
 }
 
 /* -------------------- Footer */
@@ -231,7 +280,7 @@
 
 @media screen and (max-width: 766px) {
     #icon, #icon2, #icon3 {
-        padding-top: 30px;
+        padding-top: 50px;
     }
 
     .reason-item {
@@ -240,10 +289,5 @@
 
     .reason-content {
         padding-bottom: 0px;
-    }
-
-@media only screen and (min-width: 768px) and (max-width: 785px) {
-    .btn a {
-        font-size: 10px;
     }
 }
