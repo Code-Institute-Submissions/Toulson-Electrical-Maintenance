@@ -73,6 +73,11 @@
     background-color: #A86067;
 }
 
+input[type=submit] {
+    background-color: #A86067;
+    color:#f8f9fa;
+}
+
 .footer {
     background-color: #f8f9fa;
 }
@@ -84,7 +89,6 @@
 .list-inline-item i{
     color: #333333;
 }
-
 
 /* -------------------- Hover and Active */
 
@@ -105,6 +109,11 @@
 .button a:hover{
     text-decoration: none;
     color: #A86067;
+    background-color:#f8f9fa;
+}
+
+input[type=submit]:hover{
+    color:#A86067;
     background-color:#f8f9fa;
 }
 
@@ -220,7 +229,7 @@
     text-align: center;
     border-radius: 12px;
     padding-top: 10px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
     padding-left: 15px;
     left: 101px;
     right: 101px;
@@ -235,7 +244,7 @@
     text-align: center;
     border-radius: 12px;
     padding-top: 10px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
     padding-left: 15px;
     left: 101px;
     right: 101px;
@@ -350,7 +359,11 @@
 }
 
 .contact-container {
-    margin-top: 125px;
+    margin-top: 175px;
+}
+
+.contact h3{
+    text-align: left;
 }
 
 .address-icon {
@@ -362,6 +375,47 @@
     text-align: center;
     padding-left: 0;
 }
+
+/* -------------------- Contact Form */
+
+input[type=text] {
+    display: block;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input[type=email] {
+    display: block;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input[id=message] {
+    display: block;
+    width: 60%;
+    height: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 80px;
+    height: 25px;
+    border-radius: 12px;
+    margin-top: 12px;
+    border: none;
+}
+
+label {
+    display: block;
+    position: left;
+}
+
 
 /* -------------------- Footer */
 
@@ -390,7 +444,13 @@
 @media screen and (max-width: 800px) {
     .navbar-collapse {
         margin-left: 0px;
+    }
 }
+
+@media screen and (max-width: 767px){
+    .contact h3 {
+        text-align:center;
+    }
 }
 
 @media screen and (max-width: 766px) {
@@ -412,22 +472,51 @@
     }
 
     .about-header h3 {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .about-list {
-    list-style-type: none;
-    text-align: center;
-    padding-left: 0;
-    padding-bottom: 20px;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 20px;
     }
 
     .qualifications-list {
-    list-style-type: none;
-    text-align: center;
-    padding-left: 0;
-    font-size: 13px;
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    input[type=text] {
+        width: 60%;
+        margin: auto;
+    }
+
+    input[type=email] {
+        width: 60%;
+        margin: auto;
+    }
+
+    input[id=message] {
+        width: 80%;
+        height: 250px;
+        margin: auto;
+    }
+
+    input[type=submit] {
+        display: block;
+        margin: auto;
+        margin-top: 12px;
+    }
+
+    label {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 12px;
     }
 }
