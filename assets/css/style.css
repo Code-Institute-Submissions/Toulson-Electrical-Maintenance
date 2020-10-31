@@ -39,6 +39,10 @@
     color:#A86067;
 }
 
+.review-header h3 .review-item p {
+    color: #333333;
+}
+
 #quote-btn a{
     color: #f8f9fa;
     background-color: #A86067;
@@ -48,9 +52,16 @@
     color: #333333;
 }
 
-
 #icon, #icon2, #icon3 {
     color: #A86067;
+}
+
+.five-stars {
+    color: #A86067;
+}
+
+.address-icon {
+    color:#A86067;
 }
 
 .reason-item p {
@@ -279,6 +290,11 @@
     margin-bottom: 20px;
 }
 
+.review-header h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
 .reason {
     padding-left: 40px;
     padding-right: 40px;
@@ -331,6 +347,20 @@
     text-align: left;
     padding-left: 0;
     font-size: 13px;
+}
+
+.contact-container {
+    margin-top: 125px;
+}
+
+.address-icon {
+    font-size: 75px;
+    text-align: center;
+}
+
+.social-media-list {
+    text-align: center;
+    padding-left: 0;
 }
 
 /* -------------------- Footer */
