@@ -394,7 +394,8 @@ input[type=email] {
     border-width: 1px;
 }
 
-input[id=message] {
+textarea {
+    resize: none;
     display: block;
     width: 60%;
     height: 250px;
@@ -501,14 +502,13 @@ label {
         margin: auto;
     }
 
-    input[id=message] {
-        width: 80%;
+    textarea {
+        width: 60%;
         height: 250px;
         margin: auto;
     }
 
     input[type=submit] {
-        display: block;
         margin: auto;
         margin-top: 12px;
     }
