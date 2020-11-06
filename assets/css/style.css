@@ -414,7 +414,6 @@ input[type=submit] {
 
 label {
     display: block;
-    position: left;
 }
 
 
@@ -427,13 +426,10 @@ label {
 
 .brand-name {
     display: inline-block;
-    font-size: 15px;
-    font-weight: 100;
     vertical-align: middle;
 }
 
 .social-media {
-    display: inline-block;
     padding-right: 40px;
     float: right;
     font-size: 17px;
