@@ -31,11 +31,11 @@
 }
 
 .list-header h3 {
-    color:#A86067;
+    color:#aa2a39;
 }
 
 .about-header h3 {
-    color:#A86067;
+    color:#aa2a39;
 }
 
 .review-header h3 .review-item p {
@@ -44,7 +44,7 @@
 
 #quote-btn a {
     color: #f8f9fa;
-    background-color: #A86067;
+    background-color: #aa2a39;
 }
 
 .section-header h1 {
@@ -52,15 +52,15 @@
 }
 
 #icon, #icon2, #icon3 {
-    color: #A86067;
+    color: #aa2a39;
 }
 
 .five-stars {
-    color: #A86067;
+    color: #aa2a39;
 }
 
 .address-icon {
-    color:#A86067;
+    color:#aa2a39;
 }
 
 .reason-item p {
@@ -69,11 +69,11 @@
 
 .button a {
     color: #f8f9fa;
-    background-color: #A86067;
+    background-color: #aa2a39;
 }
 
 input[type=submit] {
-    background-color: #A86067;
+    background-color: #aa2a39;
     color:#f8f9fa;
 }
 
@@ -92,32 +92,32 @@ input[type=submit] {
 /* -------------------- Hover and Active */
 
 .navbar-collapse ul li a:hover {
-    color: #A86067;
+    color: #aa2a39;
 }
 
 #active a {
-    color: #A86067;
+    color: #aa2a39;
 }
 
 #quote-btn a:hover {
     text-decoration: none;
-    color: #A86067;
+    color: #aa2a39;
     background-color:#f8f9fa;
 }
 
 .button a:hover {
     text-decoration: none;
-    color: #A86067;
+    color: #aa2a39;
     background-color:#f8f9fa;
 }
 
 input[type=submit]:hover {
-    color:#A86067;
+    color:#aa2a39;
     background-color:#f8f9fa;
 }
 
 .list-inline-item i:hover {
-    color: #A86067;
+    color: #aa2a39;
 }
 
 
@@ -152,7 +152,7 @@ input[type=submit]:hover {
 /* -------------------- Hero Containers */
 
 .hero-container-index {
-    background-image: url("../images/TEM_hero_image.png");
+    background-image: url("../images/annie-gray-WEWTGkPUVT0-unsplash.jpg");
     margin-top: 125px;
     width: 100%;
     height: 410px;
@@ -169,7 +169,7 @@ input[type=submit]:hover {
 }
 
 .hero-container-services {
-    background-image: url("../images/TEM_hero_image_services.png");
+    background-image: url("../images/creatv-eight-z3QZ6gjGRt4-unsplash.jpg");
     margin-top: 125px;
     width: 100%;
     height: 350px;
@@ -186,7 +186,7 @@ input[type=submit]:hover {
 }
 
 .hero-container-about {
-    background-image: url("../images/TEM_hero_image_about.png");
+    background-image: url("../images/greyson-joralemon-A1g0oeX29ec-unsplash.jpg");
     margin-top: 125px;
     width: 100%;
     height: 350px;
@@ -203,7 +203,7 @@ input[type=submit]:hover {
 }
 
 .hero-container-testimonials {
-    background-image: url("../images/TEM_hero_image_testimonials.png");
+    background-image: url("../images/becca-tapert-kYh-O1Jk7EE-unsplash.jpg");
     margin-top: 125px;
     width: 100%;
     height: 350px;
