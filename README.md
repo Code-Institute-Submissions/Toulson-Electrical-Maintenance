@@ -27,7 +27,7 @@ This is a website created for my friend's company. It is responsive and accessib
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans-Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font in the sans-serif typeface family which was developed by Google as the system font for its mobile operating system Android.
     -   #### Imagery
-        -   There is a background hero image for 4 of the 5 pages, which is designed to attract users' attention and add imagery to an otherwise content-heavy website. The images have been taken from Getty Images to provide a visual of the services provided by the company.
+        -   There is a background hero image for 4 of the 5 pages, which is designed to attract users' attention and add imagery to an otherwise content-heavy website. The images have been taken from [Unsplash] (https://unsplash.com/) to provide a visual of the services provided by the company.
 
 *   ### Wireframes
 
@@ -84,35 +84,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. First time visitors should be able to quickly see the purpose of the website (a maintenance company website with information about the business and how to get in touch).
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-
+        1. Upon entering the site, users will see the business' logo (which has the name of the company included) and a clear navbar.
+        2. The main hero image shows workers at work, providing one of the services offered by this business.
+        3. A call to action (to get in touch) is immediately visible in the large hero image, which provides a fast way to get in touch.
+       
     2. First time visitors should be able to easily navigate throughout the site using the navbar to find what they are looking for.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. At the top of each page there is an easy navigation bar, with each link describing what the page they will end up at clearly.
+        2. The logo can be clicked on at any point to return to the index page.
 
     3. First time visitors will want to see why this company is different from similar companies, will want to read testimonials to find out if the company is reliable, and will want to see social media pages to see examples of work.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+        1. Upon entering the site, there is a list of reasons why the business is different to other similar businesses. Each reason also has a link to additional pages for more detailed information.
+        2. There is a full page dedicated to testimonials so users can read about what clients think.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
     1. Returning Visitors may come back to the page to find contact details to get in touch.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. The first call to action in the main page is a link to the contact page to get in touch for a quote and you can get there by clicking on "Contact Us" in the navigation bar as well.
+        2. On the "Contact Us" page there are multiple ways to get in touch: they can call the number listed, email the email address listed, or fill out the form to send a message via the form.
 
     2. Returning Visitors will want to access social media links to follow the business online.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        1. The footer on every page has links to the business' social media pages.
+        2. The "Contact Us" page also has the social media links in the main content of the page.
 
 ### Further Testing
 
@@ -124,7 +120,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   The links to social media pages work but are not actual social media pages as this business does not exist on the internet. I've created social media pages but they will be empty.
--   The hero image background pictures have the Getty Image watermark on them as I have not purchased them.
+
+-   The form on the "contact" page submits information to the Code Institute formdump site as the site is not being used by the business.
+
+### Functionalities To Be Added
+
+-   Eventually I would like to add functionality for the "Contact Us" page to display a "Thank you, we will be in touch shortly!" message once the form has been submitted. I have not learned how to do this yet so I will return to do this eventually.
 
 ## Deployment
 
@@ -178,9 +179,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.2/getting-started/introduction/): The Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System and to get code for the Navbar and footer.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.2/getting-started/introduction/): The Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System and to get code for the Navbar and footer.
 
--   
+-   [W3Schools] (https://www.w3schools.com/css/): W3Schools was used as a resource throughout the project. No code was copied directly from the site.
 
 ### Content
 

@@ -157,7 +157,7 @@ input[type=submit]:hover {
     width: 100%;
     height: 410px;
     position: relative;
-    background-position: center 20%;
+    background-position: center 30%;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
@@ -274,7 +274,8 @@ input[type=submit]:hover {
     margin: auto;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-weight: 200;
 }
 
 .section-header h3 {
