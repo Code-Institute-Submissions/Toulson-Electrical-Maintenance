@@ -27,7 +27,7 @@ This is a website created for my friend's company. It is responsive and accessib
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans-Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font in the sans-serif typeface family which was developed by Google as the system font for its mobile operating system Android.
     -   #### Imagery
-        -   There is a background hero image for 4 of the 5 pages, which is designed to attract users' attention and add imagery to an otherwise content-heavy website. The images have been taken from [Unsplash] (https://unsplash.com/) to provide a visual of the services provided by the company.
+        -   There is a background hero image for 4 of the 5 pages, which is designed to attract users' attention and add imagery to an otherwise content-heavy website. The images have been taken from [Unsplash](https://unsplash.com/) to provide a visual of the services provided by the company.
 
 *   ### Wireframes
 
@@ -181,7 +181,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.2/getting-started/introduction/): The Bootstrap Library was used throughout the project, mainly to make the site responsive using the Bootstrap Grid System and to get code for the Navbar and footer.
 
--   [W3Schools] (https://www.w3schools.com/css/): W3Schools was used as a resource throughout the project. No code was copied directly from the site.
+-   [W3Schools](https://www.w3schools.com/css/): W3Schools was used as a resource throughout the project. No code was copied directly from the site.
 
 ### Content
 
@@ -193,19 +193,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The logo for the business was created by Nele Groosman, sister of the developer, for use in this project.
 
--   Hero image on "index" page: Photo by Annie Gray on [Unsplash] (https://unsplash.com/s/photos/worker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+-   Hero image on "index" page: Photo by Annie Gray on [Unsplash](https://unsplash.com/s/photos/worker?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
--   Hero image on "services" page: Photo by Creatv Eight on [Unsplash] (https://unsplash.com/s/photos/kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+-   Hero image on "services" page: Photo by Creatv Eight on [Unsplash](https://unsplash.com/s/photos/kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
--   Hero image on "about" page: Photo by Greyson Joralemon on [Unsplash] (https://unsplash.com/s/photos/construction?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+-   Hero image on "about" page: Photo by Greyson Joralemon on [Unsplash](https://unsplash.com/s/photos/construction?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
--   Hero image on "testimonials" page: Photo by Becca Tapert on [Unsplash] (https://unsplash.com/s/photos/happy-in-kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+-   Hero image on "testimonials" page: Photo by Becca Tapert on [Unsplash](https://unsplash.com/s/photos/happy-in-kitchen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
 -   The image of the business owner on the "about" page was taken by the developer.
 
 ### Acknowledgements
 
--   My mentor for reviewing my idea and Wireframes for the project to make sure I was heading in the right direction with the project.
+-   My mentor for reviewing my idea and wireframes for the project to make sure I was heading in the right direction with the project.
 
 -   Peers in the Slack community who helped with a few questions along the way.
 
